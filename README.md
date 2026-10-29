@@ -8,6 +8,8 @@ train on all but the last N years, forecast and score the held-out years.
 ## Run
 
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 streamlit run app.py
 ```
